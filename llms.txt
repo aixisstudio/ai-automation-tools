@@ -25,4 +25,19 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 |---|---|
 | [Docling](https://github.com/docling-project/docling) | PDF/docs → structured data |
 | [Unstructured](https://github.com/Unstructured-IO/unstructured) | Any doc → LLM-ready chunks |
-| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LL
+| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LLMs |
+
+## 🏗️ DIY stack
+```
+trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/db/notify)
+```
+Start simple: one cron + one LLM call + one action. Agentic can come later.
+
+## 🔧 Real automation stacks
+
+| Need | Tool |
+|---|---|
+| No-code flows | n8n (self-host), Zapier, Make |
+| Agent automations | Flowise, LangFlow |
+| Data pipelines | Airbyte + dbt + LLM steps |
+| Email | Superh
