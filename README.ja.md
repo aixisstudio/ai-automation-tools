@@ -37,6 +37,24 @@ trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/
 ```
 Start simple: one cron + one LLM call + one action. Agentic can come later.
 
+## 🔧 Real automation stacks
+
+| Need | Tool |
+|---|---|
+| No-code flows | n8n (self-host), Zapier, Make |
+| Agent automations | Flowise, LangFlow |
+| Data pipelines | Airbyte + dbt + LLM steps |
+| Email | Superhuman AI, Shortwave |
+| Meetings | Otter, Fireflies, tl;dv |
+| Scraping+AI | Browse AI, Apify actors |
+
+## 💡 High-ROI automations
+
+1. Inbox triage → draft replies → human approve
+2. Meeting → summary → tasks to tracker
+3. Form submission → enrichment → CRM
+4. Support ticket → classify → route → draft answer
+
 ---
 ## 貢献
 
