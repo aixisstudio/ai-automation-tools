@@ -1,0 +1,45 @@
+# Ai Automation Tools
+
+[English](README.md) | [Français](README.fr.md) | [Español](README.es.md) | [中文](README.zh-CN.md) | **日本語** | [Русский](README.ru.md)
+
+AI 自動化ツール
+
+_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+
+## 🔧 Platforms
+| Tool | Note |
+|---|---|
+| [n8n](https://github.com/n8n-io/n8n) | OSS workflow automation + AI nodes — self-hostable |
+| [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-drop LLM pipelines |
+| [Dify](https://github.com/langgenius/dify) | Full LLM app platform (agents, RAG, workflows) |
+| [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative |
+| [Zapier AI](https://zapier.com/) | No-code + AI actions |
+| [Make](https://www.make.com/) | Visual scenarios + AI modules |
+
+## 🤖 Agent frameworks
+| Tool | Note |
+|---|---|
+| [CrewAI](https://github.com/crewAIInc/crewAI) | Multi-agent crews |
+| [AutoGen](https://github.com/microsoft/autogen) | Agent conversations |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent graphs |
+| [smolagents](https://github.com/huggingface/smolagents) | HF minimal agents |
+
+## 📄 Document pipelines
+| Tool | Note |
+|---|---|
+| [Docling](https://github.com/docling-project/docling) | PDF/docs → structured data |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Any doc → LLM-ready chunks |
+| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LLMs |
+
+## 🏗️ DIY stack
+```
+trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/db/notify)
+```
+Start simple: one cron + one LLM call + one action. Agentic can come later.
+
+---
+## 貢献
+
+プルリクエストを歓迎します。レビューしてマージします。[aixisstudio](https://github.com/aixisstudio) による管理 — オープンソースのアプリケーションファイアウォール [Snitch](https://github.com/aixisstudio/Snitch) の作者です。
+
+## ライセンス: MIT
