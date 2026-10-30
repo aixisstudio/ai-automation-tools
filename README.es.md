@@ -4,56 +4,54 @@
 
 Automatización con IA
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
 ## 🔧 Platforms
-| Tool | Note |
+← Herramienta Silenciosa
 |---|---|
-| [n8n](https://github.com/n8n-io/n8n) | OSS workflow automation + AI nodes — self-hostable |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-drop LLM pipelines |
-| [Dify](https://github.com/langgenius/dify) | Full LLM app platform (agents, RAG, workflows) |
-| [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative |
-| [Zapier AI](https://zapier.com/) | No-code + AI actions |
-| [Make](https://www.make.com/) | Visual scenarios + AI modules |
+Silencio [n8n] (https://github.com/n8n-io/n8n) Silencio Automatización del flujo de trabajo OSS + nodos AI — auto-hostable TEN
+[Flowise] (https://github.com/FlowiseAI/Flowise)
+Silencio [Dify](https://github.com/langgenius/dify) Silencio Plataforma de aplicación Full LLM (agentes, RAG, flujos de trabajo)
+[Activepieces] (https://github.com/activepieces/activepieces) Silencio OSS Zapier alternativa Silencio
+confidencialidad [Zapier AI] (https://zapier.com/)
+Silencio [Make](https://www.make.com/) Silencio escenarios visuales + módulos AI tención
 
-## 🤖 Agent frameworks
-| Tool | Note |
+## 🤖 Agente frameworks
+← Herramienta Silenciosa
 |---|---|
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Multi-agent crews |
-| [AutoGen](https://github.com/microsoft/autogen) | Agent conversations |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent graphs |
-| [smolagents](https://github.com/huggingface/smolagents) | HF minimal agents |
+Silencio [CrewAI] (https://github.com/crewAIInc/crewAI)
+Silencio [AutoGen] (https://github.com/microsoft/autogen)
+Silencio [LangGraph] (https://github.com/langchain-ai/langgraph)
+[smolagents] (https://github.com/huggingface/smolagents)
 
 ## 📄 Document pipelines
-| Tool | Note |
+← Herramienta Silenciosa
 |---|---|
-| [Docling](https://github.com/docling-project/docling) | PDF/docs → structured data |
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Any doc → LLM-ready chunks |
-| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LLMs |
+Silencio [Docling](https://github.com/docling-project/docling) Silencio PDF/docs → Datos estructurados
+[No estructurado] (https://github.com/Unstructured-IO/unstructured) Cualquier doc → LLM-ready chunks
+Silencio [Firecrawl] (https://github.com/mendableai/firecrawl) ← Web → marcación limpia para LLMs
 
-## 🏗️ DIY stack
+♪ ♪ ♪ ♪ ♪♪
 ```
 trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/db/notify)
 ```
-Start simple: one cron + one LLM call + one action. Agentic can come later.
+Comience simple: un cron + una llamada LLM + una acción. El agente puede venir más tarde.
 
-## 🔧 Real automation stacks
+## 🔧 verdaderas pilas de automatización
 
-| Need | Tool |
+← Necesidad de la herramienta de la vida
 |---|---|
-| No-code flows | n8n (self-host), Zapier, Make |
-| Agent automations | Flowise, LangFlow |
-| Data pipelines | Airbyte + dbt + LLM steps |
-| Email | Superhuman AI, Shortwave |
-| Meetings | Otter, Fireflies, tl;dv |
-| Scraping+AI | Browse AI, Apify actors |
+← Flujos de código no confidencialidad n8n (auto-host), Zapier, Hacer dura
+Las automatizaciones de los agentes en la vida Flowise, LangFlow
+oleoductos de datos ← Airbyte + dbt + pasos de LLM
+← Correo electrónico ← Superhuman AI, Shortwave
+TENIDO REUNIONES ANTERIOR, Fireflies, tl;dv ANTE
+← Scraping+AI Silencio Examinar AI, Apificar a los actores
 
-## 💡 High-ROI automations
+Automatizaciones de alto nivel
 
-1. Inbox triage → draft replies → human approve
-2. Meeting → summary → tasks to tracker
-3. Form submission → enrichment → CRM
-4. Support ticket → classify → route → draft answer
+1. Inbox triage → proyecto de respuestas →
+2. Reunión → resumen → tareas para rastreador
+3. Presentación de formulario → enriquecimiento → CRM
+4. Billete de soporte → clasificar → ruta →
 
 ---
 ## Contribuir
