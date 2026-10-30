@@ -4,56 +4,54 @@
 
 Automatisation par IA — agents, pipelines, no-code
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
-
-## 🔧 Platforms
-| Tool | Note |
+Plateformes
+Remarque
 |---|---|
-| [n8n](https://github.com/n8n-io/n8n) | OSS workflow automation + AI nodes — self-hostable |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-drop LLM pipelines |
-| [Dify](https://github.com/langgenius/dify) | Full LLM app platform (agents, RAG, workflows) |
-| [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative |
-| [Zapier AI](https://zapier.com/) | No-code + AI actions |
-| [Make](https://www.make.com/) | Visual scenarios + AI modules |
+[n8n](https://github.com/n8n-io/n8n)= Automatisation du flux de travail de l'OSS + nœuds d'IA – auto-installables=
+[Flowise] (https://github.com/FlowiseAI/Flowise)
+[Difier](https://github.com/langgenius/dify)= Plateforme complète de l'application LLM (agents, RAG, workflows)=
+[pièces actives](https://github.com/activepieces/activepieces)
+[Zapier AI] (https://zapier.com/)
+[Make] (https://www.make.com/) , Scénarios visuels + modules AI ,
 
-## 🤖 Agent frameworks
-| Tool | Note |
+Cadres d'agents
+Remarque
 |---|---|
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Multi-agent crews |
-| [AutoGen](https://github.com/microsoft/autogen) | Agent conversations |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent graphs |
-| [smolagents](https://github.com/huggingface/smolagents) | HF minimal agents |
+[CrewAI] (https://github.com/crewAIInc/crewAI)
+[AutoGen] (https://github.com/microsoft/autogen)
+[LangGraph] (https://github.com/langchain-ai/langgraph)
+[smolagents] (https://github.com/huggingface/smolagents)
 
-## 📄 Document pipelines
-| Tool | Note |
+Documenter les pipelines
+Remarque
 |---|---|
-| [Docling](https://github.com/docling-project/docling) | PDF/docs → structured data |
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Any doc → LLM-ready chunks |
-| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LLMs |
+[Docling](https://github.com/docling-project/docling)=PDF/docs → données structurées=
+[Non structuré] (https://github.com/Unstructured-IO/unstructured) N'importe quel doc → LLM-ready morceaux
+[Firecrawl](https://github.com/mendableai/firecrawl)== Web → marqueur propre pour les LLM==
 
-## 🏗️ DIY stack
+Pile de bricolage
 ```
 trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/db/notify)
 ```
-Start simple: one cron + one LLM call + one action. Agentic can come later.
+Démarrer simple : un cron + un appel LLM + une action. Agentic peut venir plus tard.
 
-## 🔧 Real automation stacks
+Piles d'automatisation réelles
 
-| Need | Tool |
+Besoin d'un outil
 |---|---|
-| No-code flows | n8n (self-host), Zapier, Make |
-| Agent automations | Flowise, LangFlow |
-| Data pipelines | Airbyte + dbt + LLM steps |
-| Email | Superhuman AI, Shortwave |
-| Meetings | Otter, Fireflies, tl;dv |
-| Scraping+AI | Browse AI, Apify actors |
+N8n (auto-hôte), Zapier, Make
+Automatisation des agents
+Canalisations de données
+Superhumaine, A.I.
+Réunions de la loutre, lucarnes, tl;dv
+Explorer l'IA, Apifier les acteurs
 
-## 💡 High-ROI automations
+Automatisations à haut régime
 
-1. Inbox triage → draft replies → human approve
-2. Meeting → summary → tasks to tracker
-3. Form submission → enrichment → CRM
-4. Support ticket → classify → route → draft answer
+1. Boîte de réception triage → projets de réponses → approbation humaine
+2. Réunion → résumé → tâches à suivre
+3. Soumission de formulaire → enrichissement → CRM
+4. Support ticket → classifier → itinéraire → projet de réponse
 
 ---
 ## Contribuer
