@@ -4,56 +4,54 @@
 
 Автоматизация с ИИ — агенты и пайплайны
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
-
-## 🔧 Platforms
-| Tool | Note |
+##Платформы
+| Инструмент | Примечание
 |---|---|
-| [n8n](https://github.com/n8n-io/n8n) | OSS workflow automation + AI nodes — self-hostable |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-drop LLM pipelines |
-| [Dify](https://github.com/langgenius/dify) | Full LLM app platform (agents, RAG, workflows) |
-| [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative |
-| [Zapier AI](https://zapier.com/) | No-code + AI actions |
-| [Make](https://www.make.com/) | Visual scenarios + AI modules |
+| [n8n] (https://github.com/n8n-io/n8n) | Автоматизация рабочего процесса OSS + узлы AI — самоуправляемые |
+| [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-drop LLM трубопроводы |
+| [Dify] (https://github.com/langgenius/dify) | Полная платформа приложений LLM (агенты, RAG, рабочие процессы) |
+https://github.com/activepieces/activepieces - альтернатива OSS Zapier
+| [Zapier AI] (https://zapier.com/) | Без кода + действия ИИ |
+| [Make](https://www.make.com/) | Визуальные сценарии + модули ИИ |
 
-## 🤖 Agent frameworks
-| Tool | Note |
+##  framework фреймворки агентов
+| Инструмент | Примечание
 |---|---|
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Multi-agent crews |
-| [AutoGen](https://github.com/microsoft/autogen) | Agent conversations |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent graphs |
-| [smolagents](https://github.com/huggingface/smolagents) | HF minimal agents |
+[CrewAI] (https://github.com/crewAIInc/crewAI) | Многоагентные экипажи
+[AutoGen] (https://github.com/microsoft/autogen) | Разговоры агентов |
+[LangGraph] (https://github.com/langchain-ai/langgraph) | Графики состояния агента |
+[smolagents] (https://github.com/huggingface/smolagents) | HF минимальные агенты
 
-## 📄 Document pipelines
-| Tool | Note |
+## Документные трубопроводы
+| Инструмент | Примечание
 |---|---|
-| [Docling](https://github.com/docling-project/docling) | PDF/docs → structured data |
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Any doc → LLM-ready chunks |
-| [Firecrawl](https://github.com/mendableai/firecrawl) | Web → clean markdown for LLMs |
+| [Docling] (https://github.com/docling-project/docling) | PDF/docs → структурированные данные |
+[Неструктурированный] (https://github.com/Unstructured-IO/unstructured) Любой документ → LLM-готовые куски
+[Firecrawl] (https://github.com/mendableai/firecrawl) | Web → чистая разметка для LLM
 
-## 🏗️ DIY stack
+##  ️ DIY стек
 ```
 trigger (cron/webhook) → fetch data → LLM step(s) → validate → act (API/db/notify)
 ```
-Start simple: one cron + one LLM call + one action. Agentic can come later.
+Начните с простого: один крон + один вызов LLM + одно действие. Агент может прийти позже.
 
-## 🔧 Real automation stacks
+###Настоящая автоматизация
 
-| Need | Tool |
+Потребность в инструменте
 |---|---|
 | No-code flows | n8n (self-host), Zapier, Make |
-| Agent automations | Flowise, LangFlow |
-| Data pipelines | Airbyte + dbt + LLM steps |
-| Email | Superhuman AI, Shortwave |
-| Meetings | Otter, Fireflies, tl;dv |
-| Scraping+AI | Browse AI, Apify actors |
+Автоматизация агентов Flowise, LangFlow
+| Трубопроводы данных | Шаги Airbyte + dbt + LLM
+Оригинальное название: Superhuman AI, Shortwave
+Выдра, светлячки, tl;dv |
+Скриншоты из игры Scraping+AI, Browse AI, Apify
 
-## 💡 High-ROI automations
+## - Автоматизация с высокой рентабельностью инвестиций
 
-1. Inbox triage → draft replies → human approve
-2. Meeting → summary → tasks to tracker
-3. Form submission → enrichment → CRM
-4. Support ticket → classify → route → draft answer
+1.Сортировка почтовых ящиков → проект ответов → одобрение человека
+2. Встреча → резюме → задачи по отслеживанию
+3.Подача формы → обогащение → CRM
+4. билет поддержки → классифицировать → маршрут
 
 ---
 ## Участие
